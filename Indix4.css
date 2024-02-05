@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right,#01022d 30%,#000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-image:  linear-gradient(to right,#01022de5 30%,#00000088),
+    url(https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg)
+    ;
+    background-position: center;
+}
+.container:hover{
+   
+    background-image:  linear-gradient(to right,#01022de5 30%,transparent),
+    url(https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg)
+    ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav .logo{
+    
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    font-size: 17px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.content{
+    width: 30%;
+    color: white;
+    margin-top: 60px;  
+}
+.text h2{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.text p{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+    width: 410px;
+}
+.click button{
+    width: 190px;
+    border-radius: 10px;
+    font-size: 30px;
+    word-spacing: 2px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.click button:hover{
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
